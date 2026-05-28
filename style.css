@@ -1,0 +1,76 @@
+/* General Page Styling */
+body {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 40px;
+    line-height: 1.6;
+}
+
+/* Main Heading */
+h1 {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 30px;
+    color: #ffd700;
+    text-shadow: 2px 2px 5px black;
+}
+
+/* Section Headings */
+h2 {
+    color: #ffcc00;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+/* Sub Headings */
+h3 {
+    color: #00ffcc;
+    margin-top: 15px;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 18px;
+}
+
+/* Skills List */
+ul {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+li {
+    margin: 8px 0;
+    font-size: 17px;
+}
+
+/* Link Button */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ffd700;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+/* Hover Effect */
+a:hover {
+    background-color: white;
+    color: #1e3c72;
+    transform: scale(1.05);
+}
+
+/* Content Box */
+body {
+    max-width: 900px;
+    margin: auto;
+}
